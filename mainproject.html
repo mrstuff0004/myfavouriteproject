@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .field{
+            display: flex;
+            justify-content: space-between;
+            background-color: #12141D;
+        }
+        .stage1{
+            color: white;
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+        .stage2{
+        align-items: center;
+        display: flex;
+        }
+        .force{
+            padding-left: 20px;
+        }
+        body{
+            margin: 0%;
+            background: #12141D;
+            @media screen {
+                max-width: 500px;
+            }
+
+        }
+        .force1{
+            padding-left: 120px;
+        }
+        .force2{
+            padding-left: 60px;
+        }
+        .boat{
+            margin-right: 25px;
+            padding: 8px;
+            padding-left: 13px;
+            padding-right: 13px;
+            background: #CCFF8B;
+            border-radius: 5px;
+            border: white;
+        }
+        .container{
+            padding: 70px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .settle{
+            padding: 8px;
+            margin-right: 50px;
+            padding-left: 13px;
+            padding-right: 13px;
+            border-radius: 5px;
+            border: white;
+            background-color: blanchedalmond;
+        }
+        .godwin{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .command{
+            margin-right: 400px;
+        }
+        .box18{
+            text-align: center;
+            padding-top: 60px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .post{
+            text-align: center;
+        }
+        .cloud{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px;
+        }
+        .jeez{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .daily{
+            padding-left: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .beware{
+            padding-left: 20px;
+        }
+        .picture{
+            padding-right: px;
+            padding-top: 0%px;
+            height: 40px;
+            width: 60px;
+        }
+        .point{
+            padding-top: 0%;
+            padding-left: 20px;
+        }
+        .cloth{
+            padding-bottom: 0%;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            padding-left: 20px;
+
+        }
+        .scale{
+            padding-left: 20px;
+        }
+        .begood{
+            padding-left: 20px;
+        }
+        .form{
+            margin-left: 200px;
+        }
+        .finish{
+            display: block;
+            display: flex;
+        }
+        .venus{
+            padding-left: 50PX;
+        }
+        .move{
+            padding: 20PX;
+            margin-top: 10px;
+        }
+        .hone{
+            position: absolute;
+            width: 150px;
+        }
+        .house{
+            padding-left: 20px;
+        }
+        .dash{
+            padding-left: 15px;
+        }
+        .joke{
+            padding-left: 20px;
+        }
+        .post{
+            padding-left: 15px;
+        }
+        .helt{
+            padding-left: 20px
+        }
+        .solid{
+            padding-left: 15px;
+        }
+        .tool{
+            padding-left: 20px;
+        }
+        .media{
+            padding-left: 15px;
+        }
+        .show{
+            padding-left: 20px;
+        }
+        .git{
+padding-left: 15px;
+        }
+        .Recap{
+            padding-left: 20px;
+        }
+        .execute{
+            padding-left: 15px;
+        }
+        .system{
+            padding-left: 20px;
+        }
+        .comb{
+padding-left: 20px;
+        }
+        .boom{
+            padding-left: 15px;
+        }
+        .extend{
+            padding-left: 20px;
+        }
+        .deal{
+            padding-left: 15px;
+        }
+        .deeper{
+padding-left: 20px;
+        }
+        .dust{
+            padding-left: 15px;
+        }
+        .jeep{
+padding-left: 20px;
+        }
+        .bingo{
+padding-left: 15px;
+        }
+        .keyboard{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .enter{
+            padding-right: 600px;
+            background-color: white;
+            height: 600px;
+            width: 300px;
+        }
+        .check{
+            color: gainsboro;
+        }
+        .type{
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+        .little{
+            background-color: gainsboro;
+            border: 2px;
+            padding: 5px;
+        }
+        .photo{
+            margin-left: 300px;
+        }
+        .fetch{
+            margin-left: 400px;
+            margin-top: 40px;
+            background-color: #CCFF8B;
+            border: 1px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .allow{
+            text-decoration: none;
+        }
+        .usman{
+            margin-top: 100px;
+        }
+        .explore{
+            border-radius: 2px;
+            padding: 8px;
+            background-color: #CCFF8B;
+            border: 3px;
+        }
+        .diff{
+            align-items: center;
+            position: absolute;
+        }
+        .papalanto{
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .host{
+            margin-top: 100px;
+        }
+        .article{
+            margin-top: 150px;
+            padding-right: 40px;
+        }
+        .anambra{
+            display: flex;
+            justify-content: space-between;
+        }
+        .charles{
+            margin-top: 100px;
+        }
+        .xender{
+            background-color: #CCFF8B;
+            border: 1px;
+            padding: 8px;
+            border-radius: 2px;
+        }
+        .portal{
+            margin-top: 200px;
+        }
+        .area{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .zebra{
+padding: 5px;
+background-color: #CCFF8B;
+border: 3px;
+font-family: 'Times New Roman', Times, serif;
+        }
+.yearly{
+    padding: 5px;
+    background-color: gainsboro;
+    border: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.curious{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 0px;
+}
+.zenith{
+    margin-left: 20px;
+}
+.beat{
+    margin-right: 20px;
+}
+.month{
+    margin-left: 305px;
+    margin-top: 40px;
+    padding-left: 86px;
+    padding-right: 86px;
+    border: 1px;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ox{
+    padding-left: 80px;
+}
+.glass{
+    margin-left: 60px;
+    height: 65px;
+    padding-top: 10px;
+}
+.hungry{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.bewise{
+    height: 80px;
+    width: 90px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.pilgrim{
+    text-align: center;
+}
+.days{
+    background-color: #CCFF8B;
+    border: 1px;
+}
+.desktop{
+    text-align: center;
+    padding-top: 100px;
+} 
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media      
+    </style>
+</head>
+<body>
+    <header class="field mx-auto" style="max-width: 1200px;">
+        <div class="stage2">
+            <img data-ils="4" jsaction="rcuQ6b:trigger.M8vzZb;" class="rg_i Q4LuWd" jsname="Q4LuWd" width="70" height="70" alt="G Logo Vector PNG Images, G Hexagon Logo, Symbol, Icon, Business PNG Image  For Free Download | Hexagon logo, Geometric logotype, Logistics logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR50Ke8HwE4eCD_pFeKMZ11XzHye4zjJojmtg&amp;usqp=CAU">
+            <a href="" class="stage1 force">Web hosting</a>
+            <a href="" class="stage1 force1">Demos</a>
+            <a href="" class="stage1 force2">About</a>
+            <a href="" class="stage1 force2">Blog</a>
+            <a href="" class="stage1 force2">Pages</a>
+            <a href="" class="stage1 force2">Contact</a>
+        </div>
+        <div class="stage2">
+            <button class="boat">Get started</button>
+        </div>
+    </header>
+    <div class="godwin mx-auto" style="max-width: 1200px;">
+    <div class="container">
+        <h1 style="color: white;"><p>Organised cloud<br/>and web hosting<br/>for your business</p></h1>
+        <p style="color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+        <button class="boat">Get started</button>
+        <button class="settle">View package</button>
+        </div>
+        <div class="command">
+        <img src="data:image/jpeg;base64,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" data-deferred="1" class="rg_i Q4LuWd" jsname="Q4LuWd" width="300" height="250" alt="3,399 3d Histogram Images, Stock Photos &amp; Vectors | Shutterstock" data-iml="996.3000000000466" data-atf="true">
+        </div>
+    </div>
+    <div style="background-color: gainsboro; height: 800px;">
+        <h2><p class="box18">These feature make<br/>your hosting work faster</p></h2>
+        <p class="post" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+        <div class="cloud">
+            <div style="background-color: white; height: 300px; width: 300px;"><br/>
+                <img data-ils="4" jsaction="rcuQ6b:trigger.M8vzZb;" class="rg_i Q4LuWd" jsname="Q4LuWd" width="80" height="80" alt="269,905 Cloud Logo Images, Stock Photos &amp; Vectors | Shutterstock" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd8KX9HqTZk_pLLYOZ5zV6gfz-1qlytzms1w&amp;usqp=CAU">
+                <h5><p class="daily">Remote daily backup</p></h5>
+                <p class="beware" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+            </div>
+            <div class="jeez" style="background-color: white; height: 300px; width: 300px;"><br/>
+                <img class="picture" style="height:60px" alt="Image result for security logo" id="dimg_7" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH4AhgMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQHAf/EAEEQAAEDAwEEBgQMAwkAAAAAAAEAAgMEBREGEiExQRNRYXGBkRShssEHFSI1QlJicnN0sdIjMjYWJFOCksLR8PH/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAwQFAQL/xAAvEQACAgECAggFBQEAAAAAAAAAAQIDBBExEiEFEyIyM0FRcRQjgaHwNGGRscFC/9oADAMBAAIRAxEAPwD3FAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEBorauCip3T1MrY428ST+nWvUISnLhjuclJRWrKzRa1gkuD4quL0elecQyu/3dXu5q9PAkoaxer80V45Cb57Fra5rmhzSCCMgg8Vn7blkyQBAEAQBAEAQBAEAQGL3tYAXOAB6zhOb2DaW5i6eJoy6RgHWXBd0b8jnEvU4qi92ynH8Sth7mHaPkFJGi2W0Tw7q47shbhrCMAtoKdz3cnzbh5cT6lbrwJPvsryy1/yiqV9bU183S1czpHD+UHc1vcOAWjVVCtaRWhVnOU32mWPStspLrYqmCtiD2+kEtI3Fp2W7weSoZds6rlKD8i3RBTr0Zr+L9Q6acTapPjCgG/oH73NHd+3yXetxsnxFwy9fz/f5PXDZX3eaOui11bnu6K4RT0Uw3OD2FwB8N/mFHPo+1c4PiR7V8dnyJymvdrqhmC4Ur+wSjPkqsqLY96LJFOL2Z1+kQ7Oeljx94KPR+h3VGxrg5oc0gg7wRzXDp9QBAEAQBAEBA6yaHW2AEZHpA9lyuYPiP2Kmb4RTnRsB3Mb5LUTZmIwcMcF06aXr0ekaXLp6LtoJwFsqBkZ9IO7/ACtWT0h4i9jQxu4WfKolk5a220VeMVtJBOOXSMBI7jyXuFk4d16HHFPchKjQlhnORTyRfhzOx5HKtR6QyI+f2I3TArWr9G2uz2WWspTMZGva0B7gRvOOpXcPPtttUJbHiytRjqi96e+YLbjh6JF7AWVf4svd/wBk8dkSCiOhAEAQBAEBBaw+boPzA9lyt4XiP2Kmb4RT3LURmI1OXo6aZCAN5Xo9IlrdpavrWCWUtpYjvBkbl5H3eXiVUtza4PRc2W4Y0pLV8joOjqSd+zDeInVA5BjSfIOyvHx80tZQ5fn7Evw68pGiWXUWlXB8r/S6LOPlPL2Dsyd7T6u9dSxsrkuzL8/ka2Vb80XGy3amvFGKmmceOHxu/mY7qKzrqZUy4ZFmE1NaokFEeirfCR/S0/4kftBXejv1C+pHd3CZ098wW38pF7AVe/xZe7/s9x2RIKI6EAQBAEAQEFrD5uh/MD2XK5heI/YqZnhFPctNGYjU5ekdJ7SFrbUSur6hu0yJ2zC0jcXc3eHLtyqObc4/LX1L2LUn22bdSyVN1vMNippeiic3ancOYxnf2Y5dZXjFUaqnfJavyJbXKc+rQq9DUPo2aKaaOqaMse52QXeW7wSPSE9e2k0deNHTs7nTo+4yXW1TU9wHSSwO6KTbGdtpH0u3iPBR5lSpsThs+Z7plxR0ZAsY7Ser442OPoNXgYPJrjgf6T6j2q238XjNvvR/PuRpdVZp5M9EWQWirfCR/Ss/4sftBXujv1C+pFd3CZ0/8wW38pF7AVa/xZe7JI7IkFEdCAIAgCAICF1YzatO19SVp93vVrEelv0K2WvlFMfxWqZSNTl6Ol80o1rbBS7PMOJ79o5WNltu6Rr46+Uis3uvkturZ6qFjXvaxo2XcN7Qr1FStxlBle2bhc2jKPWNymlbFBQQySOOGsbtEleZdH1JauWiPSyZyeiRMaSE/wDfHT2hluc57T8lpHS8ck5/7vVbL4dY8M+L/CarXnqtCH+FEAQ0Eg3SDpAPIH9QFa6L70l7HjI2TLxGSY2k8SAsoslR+FCYR6bEfOaoY0DuBd7lodGLW/X0RDd3S0W+LoKCmh/w4mt8gAqVkuKbZKtjoXg6EAQBAEAQHFeKc1VsqIWjLnMJaO0bx6wpKZcFikR2x4oNHnxOQCOa3DFRrcunS1aLr2uppKB7sPicXsHW07z5HPmFmZ1ekuPyZpYlmseH0K/rB7RqGpBcAdlnP7IV3C8BfUhyPEZD000DKuN0800cYPyn07wJG7uRVmcZOLUUm/32I4NKS1L3o2oop46v0GruFSGubtmtkDi04ONnCx8yM4tcaS9i/S4tPRkHqOX+0GrKO2U524YHbMhHLeDJ6gB3q1jL4fGlZLd/iI5vjsUUegrJLRRtcH4y1FZLM3fmTpZB2Z/a1608L5dNl30/PsQ2c5KJeBwWWiY+roCAIAgCAIAgPPr1RmhuM0QGI3Hbj+6f+DkLax7OsgmZF9fBYyOcpyEwjllp5mTU7zHKw5a4cklFTjwy2JIScXqiz0OqaGVoF1phHLzlbHttPvCzrMKyPhvkXoZEJd5czufftOsZtGaA9jYCT5YUKxsl+T/kl6yr1IK5anmrXOoNOUb2SS7jI1gDyOwDh3n1K3XhqHzL3sRSu4uzWic0npxtmgdLPsvrJRh5HBg+qPeeaq5eU75aLZE1VfBvuT00jIYnSyODWMBc5x4ABVEm3oiUpOjWvveorjqKZp6LJhpgeW4fo0DxcVp5j6mmOOt92Q19qTmXlZhMEAQBAEAQBAEBD6ktZr6MPhGaiHLmD6w5t8cKxjXdXPnsyvkVdZHluiik53hbJlml69HUaSunos2k7Hb7nRyz1sLpHsmLR/EcBjAPAHtVDMyLK5qMH5FyiqMo6st9HQUlCzYo6eOFp47DcZ7+tZk5zm9ZPUuKKWx0rydKTrO5zXKpj01ajtTzOHpDwdzG8dk+G89m7mtLCqVcXkWbLYhslq+CJabRbobVboKKnHyIm4zje48ye0nJVC2x2zc5EsUorRHavB0IAgCAIAgCAID4UBVtT2JznPrqFmXcZomjj9odvWFfxcnTsT+hSyMfXtxKi4gjIWoUkaXLp0u+gfmuo/MH2WrJ6Q8RexoYvcLOqJZKnqbUz45fiuyDp7lIdjLN/RH93qHEq9jYia623lFfchss07Mdzs0pp1tlp3S1BEtfPvmlznH2QT+vM+CjysnrpaLlFbHquHCv3LAqpIEAQBAEAQBAEAQBAfCgK9fdMx1rnVFEWw1J3uaf5JD29R7Vcx8uVfZlzX9Fa3HU+ceTKRWU09JOYaqJ0UnU4cR1g8wtaucbFrF6lGUXF6MsulLrQ2uzVD62oZHmc7Lc5c75I4DiVn5dU7bUoLXkXKJxjDmzXPd7zqdxp7JE6kos7L6l5wT48u4ZPaF1U04y4rXrL0PXHOzlDkif09p2jscOIR0lQ4YfO4bz2DqHYqmRkzvfPb0Ja61BciZVckCAIAgCAIAgCAIAgCAIAgNFXR01ZCYaqFksZ+i8Z/8AF6jOUHrF6HHFPchoNH2iKpMzopJR9GOV+01vhz8cqzLOva010IlRBPXQnmMbG0NY0Na0YAAwAqm5MZIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgP/2Q==" data-atf="5" data-frt="0">
+                <h5><p class="point" style="font-family: Georgia, 'Times New Roman', Times, serif;">Worldwide cybersecurity</p></h5>
+                <p class="cloth" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+            </div>
+                <div class="" style="background-color: white; height: 300px; width: 300px;"><br/>
+                    <img style="margin-left:1px;width:80px" alt="Image result for cloud drawing logo" id="dimg_50" src="data:image/png;base64,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" data-atf="5" data-frt="0">
+                    <h5 class="scale"><p style="font-family: Georgia, 'Times New Roman', Times, serif;">Scale to success</p></h5>
+                    <p class="begood" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+                    </div>
+       </div>
+       <div style="background-color: #12141D; height: 1000px;">
+       <div>
+        <h2><p style=" color: white; font-family: Georgia, 'Times New Roman', Times, serif ;">Your website deserve<br/>fast,secure and also<br/>reliable hosting</p></h2>
+       </div>
+       <div>
+        <p style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+       </div>
+       <div class="keyboard">
+       <div class="form" style="background-color: #1e2750; height: 600px; width: 800px;">
+        <a class="move check allow" href="">sark</a>
+        <i class="fa-solid fa-bars venus move check"></i>
+        <hr class="hone"/><br/><br/><br/>
+        <i class="fa-solid fa-house house check"></i>
+        <a href="" class="dash check allow">Dashboard</a><br/><br/>
+        <i class="fa-regular fa-chart-bar joke check"></i>
+        <a href="" class="post check allow">Posts</a><br/><br/>
+        <i class="fa-solid fa-toolbox helt check"></i>
+        <a href="" class="solid check allow">Categories</a><br/><br/>
+        <i class="fa-regular fa-image tool check"></i>
+        <a href="" class="media check allow">Media</a><br/><br/>
+        <i class="fa-solid fa-file-circle-plus show check"></i>
+        <a href="" class="git check allow">Pages</a><br/><br/>
+        <i class="fa-solid fa-envelope Recap check"></i>
+        <a href="" class="execute check allow">Comments</a><br/><br/>
+        <h4 class="system check"><p>system</p></h4>
+        <i class="fa-solid fa-pen comb check"></i>
+        <a href="" class="boom check allow">Appearance</a><br/><br/>
+        <i class="fa-solid fa-qrcode extend check"></i>
+        <a href="" class="deal check allow">Extention</a><br/><br/>
+        <i class="fa-solid fa-users-line deeper check"></i>
+        <a href="" class="dust check allow">Users</a><br/><br/>
+        <i class="fa-solid fa-gear jeep check"></i>
+        <a href="" class="bingo check allow">Settings</a>
+        </div>
+        <div class="enter">
+        <form action="" class="type">
+        <input class="little" type="text" placeholder="Eenter keyboard"/>
+        </form>
+        <h3><p style="padding-left: 20px;">innovative platform</p></h3>
+        <ul>
+            <li style="color: cyan;">Go Live in Minutes</li>
+            <li style="color: red;">Manage Like A Pro</li>
+            <li style="color: fuchsia;">Scale to success</li>
+        </ul>
+        <img src="data:image/jpeg;base64,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" data-deferred="1" class="rg_i Q4LuWd photo" jsname="Q4LuWd" width="300" height="300" alt="8 Best Cloud Hosting for WordPress Sites In February 2023" data-iml="1166" data-atf="true">
+        <button class="fetch">Register Now</button><br/><br/><br/>
+        <div class="diff" style="background-color: #12141D; height: 500px;">
+         <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDg8NDQ8PDQ0NDg4PDQ0NDQ8NDQ0NFREWFhURFhUYHSghGBolGxUWIT0hJSkuLi4uFx81OzMsNygtLisBCgoKDg0OFRAQFy0eHx0tKy0tLS0tLS0tLS0tKy0tLSstLSstKy0tKy0tLS0rLSsrLS0tLSstLSs4LS0rLS0tLf/AABEIAMgA/AMBEQACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAAAQIDBAUGB//EAEIQAAIBAgIECgYHBwUBAAAAAAABAgMRBBIFBiExExQiQVFSYXGhsSMkc4GRwQcycoKys9EzQmKDkqPCFTSiw+EW/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEEAgMFBgf/xAAvEQEAAgECBQIFAwQDAAAAAAAAAQIDBBEFEiExMjNBIiMkYXFRgZETFHLBBhVC/9oADAMBAAIRAxEAPwD2UyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANz8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACBoda9ZIYKnljaeJmvR096iuvLs8zVlyxSPu6vDOG31V+vSsd5cVorWfEN5alaeeT5MsztJt7mtyK1cs+8vSajheGsb1r0dZojWCSlkxLvGWxVLJOL7ew30y9erhavh1dubFHZ06fOb3EmJjuEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGi1q1jhgadlaeImvRU77v45dnmacuXkh0+G8Ovq7/pWO8vJsXip1qkqtWTnUm7yk+dnPmZnrL3eLDTFSKUjaIWiG3Zu9E6UvalVe3dCb5+x9vaba29pc7Uafl+Krs9BaadK1Kq70t0Zc9P8A88izjybdJed12hi+96d3Wpp7VtT3Nbmiw4ExMdwlAAAAAAAAAAAAAAAAAAAAAAAAAAAADD0tiK1OlKWHouvWeyEM0YxT6ZNvcY2mYjo36emO+SIyW5YeQafw2KhWc8cmq1ZOd5Si7xvbZbYlzWOfki2/xPfaDLp74uXB41a25rXkgQCe3VudE6Zi7UqsrvYoT2tvoi/1NtZcvPirvzVeh6BeKpWpVaU3Re5vLen47uwt45tHd5fXRp8nx0tES6E3OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeafSi/W6C6MN/2SKWp8oex/456F/8v9OMKz0QBVTV2u8MbdmTo/DLh6S6atP8SM6+UKeoiIxXn7S9zOnD53PcIQEgAAAAAAAAAAAAAAAAAAAAAAAASBAADzH6T367SXRhYeNSZR1PlD2X/Ho+nt/l/px5Xd8CVyguVHvDG3Zt9D074rDrpr0vxo208oUdbO2nyfh7IdF8+nugIAAAAAAAAAAAAAAAAAAAAAAAAfpsOf0jpStCrOEWssXZLL2HkOI8T1GPPalbbRDqYNPS1ImYY3+rVeez98l8zm/9nn7zaf5b/wC3orWl6nb7pM2V4rmie8/yj+2pPs0GL1xxSllpqEVdq8lKb87HXw6rNau/MsxoMO29oc7rHjKletGpWlmnwUVeyWzNJ7l3lvFlvkiZu7vDcVcWKYr+rVWNroblgbrmHXLj3/ImEWno6DV6nfGYb20PB3+Rtx+UObxC22myfh6ydB4JAAAAAAAAACAAEgAAEgLALALATYgLE/YLDqGUjcLAclpdesVO9eSPCcVr9Vd2tN6cMM53K37hHL1gj2crKF5P7T8z02kr8tbtbpDF0vH0i9nD5l3DHR1NFPy2FlN2y5uiwTuvYOF6ke9+TJhjefhl1GrNL13D+0b+EJM3Yo+KHI4lf6a/4em2LrxZYBYBYCLALACQAWAmwEWAmwCwE2AggAJsAsBIADk9J6wVqdarSWVRhNxVlaVu9nntXrc9clqxO0Qp5MtomYhh/wCuSe2We/27nOtmy2nebT/LTN5n3WcfrWsPBSbqu7soprf72b8WfLv0s2Um0ztuowmPeKhHEtNOrd2bTas2vkc7V805Zm07y9JpN/6UbrxX5VoI5SHLxe37zPRaP01rJ7MfSq9J9yJcxR0dPRTtjYeU27Le6Mo2TuyMBH0se5+RMQwyT8LrdVYXxtHs4R/25G/H5OLxOfp7fs9DsWnkywCwAABFgFgFgFgAEgAJsSFgIIEASBEpJK8morpbSRMRv2RMxHdrsVp/CU9jqxk1zU71H4bDfTS5r/8AlovqsVfdj0dasJLfKcPtU3bwubLaHNHs111uKXK6XrRniKs6bUoSneMlezVkeN12O1c94lqvaLWmYYdynysGj1rfoqf235G3BHVuw9271Wd8FQ7p/jkVtVHzJek0vpQ2xX2WEMcvVMOWpvb95nd0vprd1vSH7T7sfIuYfF0NLPy2NY2rO5YJ3X8AuX7mIYXno63U2N8ZDsp1H/xt8zdi8nH4tO2n/eHoNi08sWAWAWAgCLEgAAAQQAAkVAAKSBAEkjkfpNT4pSkm1bELc7b4SL3D/UndS10fA83hjKi/ffc9vmdzt7OPyxCzpXTdalSco5M10ruL2Xv2lfUWmlJmGdK7y3OruKlWwlGrN3nNSzOyW1TkvkfPOJTNtTeZXojaGyTKOyWi1ufoYe0/xZtwx1bcXk3WqMvUaHdP8yRX1UfMl6PS+lDcXK2ywMRHVMOUpvb72drTemt5PYxm2fuj5FzD4r+nn4FixtWN0ZSDdfwa5T+yyYRaXXajr1tvooz84m7F5OPxifkR+XfFl5gAgAAYEEiAAEgUXIC4EgSSFwIYHJ66axV8HOnToZEqkHJzlBzmmpWsru3gyzp8VbeSY2cTi9OV637atUmuq5NQ/pWw6FK469oZ9GqxWm4TfFFWlOSed0lKbhGy3vmT2m7Hy83SFPW9caw2WIlxtmt1g/28vtRNGp8GePydFqZK+j6H81f3ZHgeIx9RZbbq5R2Gj1vfoIe0/wAWbMMdW3F3bfVB+o0f5n5kivqvUl6LS+lDc3K6wlvZ7ht1THdydKXmdjT+muZO65ifrvuXki5h8V7T+ELRsbgG69hd77iSXX6hr1io+ij5yRuw95cXjU/LrH3d1csPOFwFwFwIYEXJC4C4ACzmAZgJUgKrgMwFuUwOH+kHBVq0qM6MOE4ONSMkmlLa01ZPfzljDeK77jz/ABMp03arCdN/xxcfF7y1W8Sly+HnbScpc0oz/Av0N+K3xwrav05dDwpdcdgadnfDz74+Zo1HptmLybzUmp6hSXRKt+YzwnEY+fZbt3b9TKDFpNb5egh7VfhZtw923F3lt9TpeoUe+r+ZIrar1Jei0vpQ3eYrrBJ7H3PyHuyju5CjPd3nXwemt37r9eXKfu8i7h8IXcPhChM2NqbgXcNz+4Jh2WoC9LXfRTgvjJ/ob8Hu4nGvGkO1ub3ni5IXAXANgRcBcBcBcDHuAuATAqzAHIC1NgYWJjcmENZiMNGV1KKkuh7jOJkaPH6Bw84yiqMIZndypxUJ370bKXtWd4YXrFo2lzON1SkttGs/s1I3XxX6FymtmPKFO+jie0tHpLV7GuEqapcJe1nCSa39tjPLqqXps1V0t62iWdq/QnhaCoVrRqRlOTjfmk7nj+IxvmmW69Z3baNc527W1OtdS+Hj7ReTNuDu3Yu8txqbU9Rpd9X8yRW1fqy9DpPShu1MrLJOex9z8iY7pju42nV2o62DwWrsqpPlP3eRdxeEL+HwgUjY2pUghkYd7/cEw7P6P3txL9kvxm/DHdwuNT4fu7FTN7gpuSFwguAbAi4C4C4C4FgAAAm4ShsCibCFqSAtzpJ8xO6GNWwqsydxgzw66DLdjssVKBEyMHEYCM1yoqX2kmarVie6Jru11bQUP3M0H/C9nwdypfSYrezCccS1ektWatWOThY5c17uDzd28000MVtvElcW0rmjcNLC0o0WpWg5cuzcXeTe9d5ztdpbzkm1a7w7GmvWtIiWbDEp7mn3O5zLVmJ2mNl2Np7SqnW5L7n5ER3ZRHVxsK3Kta77Ds4d9tobb22jqzpT2u+8uUiaxtLo6ed8cJUzY3K1IIZGHlsfeEw7bUF8jEPpnTXwi/1LGH3cDjXlSPy61M3uGrTAm4E3AhsCLhBcBcBcCyAAATcJLgUSApsEFgKKkdjAxJ0yULUqIk2UOh2GMpW5UCBYqYchMLDwxjMM4YlfRsJbXBN9NrS+K2mu+Ktu8M4vMe7Fnoa98s5Rv02mvHb4lS/DsUzvHRvrqbQwoatQgnlbcueUt7LePBWkdE2zzbu0GkcLVp1J3pzy32Tis0WunZu95halnc0mqxf04rzMOGIT5+/sNcxsvxaJ7SvwqhlLJp1rR94TWPd6BqLSlChN1E4urUUop78uVJN9BbxRtDzPFctb5I5Z32dVFm1ylaCE3AkAEIAXAXAXAx7gLgLhJmAZgKbgVJhCQIkgLTgSKHTCFOQxlKmVMgW5UgmFPAETDJQ6C6BslbnQGwx54cllEz7Mapgrjqz5oYWJ0FTqfXpxk+lxWb47yJrE+zOua1e0zDW1dTYvbTnOm+i6nD4Pb4mE4olcpxLLX7szQ+qXByU6041HF3hFRajfpdyIwxEss3E7XpyxGzscHRyxsb3JtPVlxYYrqkEJTAm4C4QXAXAXAXAx7khcCLgAAAgVICQJAhgRYCiaIkUWIENEgokSkyhKlwCVt0kSlS6INzgSU7pVIIXIwISyKa2EsJXEEJAlAAhNwAC4C4C4GPckRcCbgLgLkAgK0BIACQDQFEgKLEA0ASISmwShoCmxINBJYkLBKpIgXILYSxlUECAm4BMCQgbAXAXAAYzYBASAAlASgJQFQAAAAiQFBAMAkQkCQA0BS0SlKJSWIEoC5EljKQgAASAAMAkEJAm4GbxSn1V8WY7hxSn1V8WNw4pT6q+LAcUp9VfFgOKU+qviwJ4rT6viwHFYdVeIDi0OqvEBxeHV8wLaVLhHSt6RQU3G0vqNtJ33b0xuFbgYfXcYWhOfKlbkQtml3K6+IFzi8Or5gUSo0k4xaScr5U27ysru3uApxMaNKnOrUWWnTjKc5cp5YRV27La9i5gLnFqfV8wHFqfV8wHFqfV8WBYq1MNCUoTlTjKFN1ZRc7SjSTtnavsV+cCzxzBcn0tLlpyj6RbYrNd7/wCGX9L6Abq4V8K4wlGdNxqT4Om8/wBerZvItu+yezsCd1NLGYOeXJVpS4SpwcLVFy6mXNlW3a8u3u2g3lVWxGEhfPOnHLPg5XnunlzZX222g3XqDoTc405QnKlLJVUZZnTnlUssrPY7NO3aghe4vDqrxG4cWh1V4gOLw6q8QHF4dVeIDi8OqvEBxeHVXiA4vDq+YDi8Or5gOLw6vmBdAAAAAAAAAU1FdNdKa5/kBzFPVW0YJypxlTUI0pQpvNSgq2eVnvbcbxvvd3e+24WamqEqkZcNLD1Jyw9XDqTouWRSw9KkpxzN7U6V/vv3he/+VvOcpOnlnPDycIqeTgoToydDJfK4WptLZsUu+4VVNV7ttOjH01epTkqV6lLhabi5xm9ue9n2WSvusFueqs3GazUEqlOrCNPg5cFhXKKjnoq+xuzb7++4Z09CzeHjh81OpGFbhPSxcliI528tZfvbHv52k7cwGItVm6mapKnKGaUpxVOXp7yclwl3tyXUY9CA2OidCqjTlSc24upRqLg5TpWnCnTUrtO7zTg5PpzO97sBpHRcq1bPalwToVaUk88akpylTlGV49Dprt2ga/E6tVJU4UVWilFTnOtKEpVpV5xqKpJpvLKLdTc1yVe2+6BQ1YnGSqcYnGUa0akaMVCpRUVOMpLNUjKo3LKryzbrLmAv0dEV1GEpPDyrrERrVaqU0pJJLLFW5CskktuyKu27sDBqap1XBw4dOLz8mTrOLnOM1Ou+VfM3O7iuS7bVtA3ujcHOlVrylweSrKMo5E1K6iotyW67tf3gbEAAAAAAAAAA/9k=" data-deferred="1" class="rg_i Q4LuWd usman" jsname="Q4LuWd" width="300" height="250" alt="3,399 3d Histogram Images, Stock Photos &amp; Vectors | Shutterstock" data-iml="996.3000000000466" data-atf="true">
+         <article class="papalanto">
+            <h1 style="color: white;font-family: Georgia, 'Times New Roman', Times, serif;">Lets get rid of worries<br/>about web hosting to<br/>save your time</h1>
+            <p style="color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+            <button class="explore">Explore now</button><br/><br/><br/><br/><br/><br/>
+            <h2 style="color: white;"><p>innovative hosting platform<br/>built team empowerment</p></h2>
+            <p style="color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+            <p style="color: #CCFF8B;">Block storage  Load balancers     Floating IPS</p>
+            <hr/>
+         </article>
+         <div class="anambra" style="background-color: #12141D; height: 300px;">
+           <article class="article">
+            <h2><p style="color: white;">Block storage</p></h2>
+            <p style="color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Unlimited Domain & Hosting in One Platform.Website Hosting option, 99.9%<br/>uptime guarantee, free SSL certificate, easy WordPress installs.</p>
+            <button class="xender">Explore now</button>
+           </article>
+           <article>
+            <img src="data:image/jpeg;base64,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" data-deferred="1" class="rg_i Q4LuWd charles" jsname="Q4LuWd" width="300" height="250" alt="3,399 3d Histogram Images, Stock Photos &amp; Vectors | Shutterstock" data-iml="996.3000000000466" data-atf="true">
+           </article>
+        </div>
+        <div class="portal" style="background-color: white; height: 650px;">
+            <article class="area">
+            <h3><p style="color: black; font-family: Georgia, 'Times New Roman', Times, serif;">Choose your perfect<br/> web hosting plan</p></h3>
+            <p>Each web hosting plan comes with a free domain name</p>
+            <button class="zebra">Monthly</button>
+            <button class="yearly">Yearly</button>
+            </article>
+            <button class="month">Most popular</button>
+            <div class="curious">
+            <article class="zenith" style="background-color: snow; height: 400px; width: 250px;">
+                <img  src="data:image/png;base64,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" data-deferred="1" class="bewise rg_i Q4LuWd" jsname="Q4LuWd" width="171" height="180" alt="Startup Red Rocket in Flat Style. Launch Rocket Icon on Isolated  Background. Red Shuttle with Fire Stock Illustration - Illustration of  long, creative: 153752028" data-iml="1336.8999999999069" data-atf="true">
+                <h4><p class="ox">Start up</p></h4>
+                <p class="pilgrim">Best for small business owners</p>
+                <p class="pilgrim">$<span style="font-size: 30px;">99</span>/mo</p>
+                <ul>
+                    <li>2x cpu power</li>
+                    <li>Free migration</li>
+                    <li>Limiting peporting</li>
+                </ul>
+                <h4 class="pilgrim"><p>Start 14 days trial</p></h4>
+                <p class="pilgrim">no credit card required</p>
+            </article>
+            <article style="background-color: snow; height: 400px; width: 250px;">
+                <img data-ils="4" jsaction="rcuQ6b:trigger.M8vzZb;" class="rg_i Q4LuWd hungry" jsname="Q4LuWd" width="95" height="70" alt="1,986,623 Flash Images, Stock Photos &amp; Vectors | Shutterstock" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzE5LmZKSF-Fhpok7_101vPlpn4YbxAapyRw&amp;usqp=CAU">
+                <h4><p class="ox">Agency</p></h4>
+                <p class="pilgrim">Best for medium agency</p>
+                <p class="pilgrim">$<span style="font-size: 30px;">199</span>/mo</p>
+                <ul>
+                    <li>16x cpu power</li>
+                    <li>Free migration</li>
+                    <li>Limited Website</li>
+                    <li>100 GB all ssd storage</li>
+                    <li>Shared environment</li>
+                    <li>Unlimited bandwidth</li>
+                    <button class="days">Start 14 days trial</button>
+                    <p>no credit card required</p>
+                </ul>          
+            </article>
+            <article class="beat" style="background-color: snow; height: 400px; width: 250px;">
+                <img class="glass" style="width:119px" alt="Image result for eyeglasses logo" id="dimg_37" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIAAdwMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQUCBwMEBgj/xAA0EAABAwMDAwEECAcAAAAAAAAAAQIDBAURBhIhMUFRIgcTccEUIzJCYZGhsRZSgYKi0fD/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAwIBBP/EACARAQACAgEEAwAAAAAAAAAAAAABAgMRITEzcaESEzL/2gAMAwEAAhEDEQA/AN4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxyzxRJmWRjE8uciAcgKybUNlgVUnu9vjVOzqlifMiHUVkncjYLxb5HL0RtUxfmBaAwjlZK3dE9r2+WuyhmABxzTxQN3Tyxxt8vciFdJqWwxOVsl6tzVTstUz/YFqCugv1nqFxT3WhlVezKhi/M7zJGSN3Rva5PLVyBmAAAAAAACFPnOu0tWXP2pvsd5lXbV1ck7la9X7YXbpERM9OOPwPo011qm3Oovarpm/I1y09S11FK5EyjHo16sVfjuVP7QPTWzRemrXC2OisdAzamEe6Br3r8XORVX8zs1OmbDVNVtTZLbK1ez6Ri/ItUUZA1d7RND0NnsFXfdLOqLRWUaJK9lHO+OORmfV6UXCKiZVMeMGuarWWvG2VlVUXW4ttr1WNlR7pjEeqdUSRGo7PXv2XwfQuoqCnu9mq7ZWTOhhrI1hc9qojk3eM9ymuOhbXXaLg0tLLUMooGs2TNc33mWrnOcYyvOeO5zcCr0j7OrS200lZqKF13uc0TZJpK6R0zWucmVa1rlVMJnGeqnrIdO2OBu2GzW6NvhlKxE/Y7lF7ttJCyF6SMYxGtei5yiJg5zu9jzV70Dpe808kVVZqON704mgibHI1fKOan75Q1F7MbHcab2kOpaWX6m0zSpUor1aj2eqNOE6rlUXB9BZwa89lVtcty1Pf3sc1lwuD46femFWNj3er+qu/xA2IAAAAAAAAYuTvjkyAFG+6V9BK5txonSxZ9M9K1VTH4t6oSmoqeX00tNWTv7NbCqfqpdKnJGDz/AFZY6X48LfPHPWvPlWU1LU1VQyruSNarOYadq5SNfKr3d+xZ44JQkrTHFITtabSp309VbJXy0Efv6Z6q59NnDmqvVWL8jBdR0rPTLBWRyfyOgdkul6EYJTitHbtr23GSs/uN+lPS19wrqliwUa09InLn1CYc/wCCdi5RETogRCSmOk1jmdyze0WniNAAKMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIXoUskl8bUSSRwQvi4a1i4TKZdynq642pz+nQC7BQo/ULVd9XTvyrsbmphPtY+/8AD/s45Hy31JHLHDTvbnDUVERF5Xn7WUz6fPdcdgLoFPBLeUZUOlgjVzlYsaJjjpvTG744557qhEU19WZPeQUrYke3OOqtz6ud3GE6efHYC5yRlPJXV309XMSnV/LJEVY9iIi/cVd3P5Z7nQc2/MXax8kjk34eqRbV4VEXHC+FTpyjs8YA9BlPIyh55/8AECq50TVau3hj1jVu7CZ6cq3rhOFzjK4VcdikbeJZm/S19yxHMXLNi7m7fUi8L3ROmOq+EVQugE6AAAAP/9k=" data-atf="1" data-frt="0">
+                <h4><p class="ox">Developer</p></h4>
+                <p class="pilgrim">Best for independent developers</p>
+                <p class="pilgrim">$69/mo</p>
+                <ul>
+                    <li>4x cpu power</li>
+                    <li>Free migration</li>
+                    <li>Limited  peporting</li>
+                </ul><br/><br/>
+                <h4 class="pilgrim"><p>Start 14 days trial</p></h4>
+                <p class="pilgrim">no credit card required</p>
+            </article>
+            </div>
+        </div>
+        <div class="desktop" style="background-color: #12141D; height: 500px;">
+            <article>
+                <h1 style="color: white; font-family: Georgia, 'Times New Roman', Times, serif;"><p>See what these<br/> Customers have to say</p></h1>
+                <p style="color: white;">"i cannot believe that i have got a brand<br/>new landing page after getting omega.it<br/>it was super easy to edit and faster and<br/> easier to work & increases our explosure"</p>
+                <p style="color: white;">"i cannot believe that i have got a brand<br/>new landing page after getting omega.it<br/>it was super easy to edit and faster and<br/> easier to work & increases our explosure"</p>
+                <h2><p style="color: white;">Jenny Wilson and Jecob jones</p></h2><br/><br/><br/><br/>
+                <h2><p style="background-color: #CCFF8B; font-family: Georgia, 'Times New Roman', Times, serif; padding-right: 500px;">Stop worring about<br/>hosting problems<button style="background-color: black; color: white; margin-left: 10px;">sign up now</button></p></h2>
+            </article>
+        </div>
+        <footer>
+            <P style="color: white;">Web hosting Demos About Blog pages contact</p>
+                <hr/> 
+        </footer>    
+    </body>
+</html>
